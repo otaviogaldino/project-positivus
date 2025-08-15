@@ -1,0 +1,109 @@
+@import url(./global.css);
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.conteudo-principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+header {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+header > img {
+    width: 220px;
+    height: 56px;
+}
+
+header > nav {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav > a {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header > nav > a:hover {
+    text-shadow: 0.5px 0.5px 0.5px var(--dark);
+    transform: scale(1.05);
+}
+
+header > nav > a.active {
+    color: var(--dark);
+}
+
+header > nav > button {
+    width: 231px;
+    height: 68px;
+    border-radius: 14px;
+    border: 1px solid var(--dark);
+}
+
+header > nav > button:hover {
+    background-color: var(--dark);
+    color: var(--grey);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    justify-content: space-between;
+}
+
+.main-text {
+    width: 531px;
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.main-image {
+    width: 600px;
+    height: 515px;
+}
+
+.btn-main {
+    width: 264px;
+    height: 68px;
+    background-color: var(--dark);
+    border-radius: 14px;
+}
+
+.btn-main > p {
+    font-size: 20px;
+    color: var(--grey);
+}
+
+.logotypes {
+    width: 100%;
+    height: 48px;
+}
+
+.logotypes > nav {
+    display: flex;
+    justify-content: space-around;
+}
