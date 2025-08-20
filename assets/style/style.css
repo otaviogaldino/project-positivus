@@ -107,3 +107,126 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
+/* and main */
+
+.services {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 140px 0px 80px 100px;
+    h2 {
+        background-color: var(--green);
+        width: 178px;
+        height: 51px;
+        text-align: center;
+        border-radius: 7px;
+    }
+    p {
+        width: 580px;
+    }
+}
+
+
+.services-block {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.service-card {
+    width: 600px;
+    height: 310px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    border-radius: 45px;
+    background-color: var(--grey);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 1px var(--dark);
+    img {
+        width: 210px;
+        height: 170px;
+    }
+}
+
+.service-card > div {
+    width: 221px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3 {
+        background-color: var(--green);
+        border-radius: 7px;
+    }
+    a {
+        margin-top: 93px;
+        width: 164px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+        color: black;
+        img {
+            width: 41px;
+            height: 41px;
+        }
+    }
+}
+
+.service-card-dois {
+    background-color: var(--green);
+    div {
+        h3 {
+        background-color: white;
+        }        
+    }
+}
+
+
+.service-card-tres {
+    background-color: var(--dark);
+    div {
+        h3 {
+        background-color: white;
+        } 
+        a {
+            color: white;
+        }       
+    }
+}
+
+.service-card-quatro {
+    h3 {
+        width: 100px;
+    }
+}
+
+.service-card-cinco {
+    background-color: var(--green);
+    div {
+        h3 {
+            background-color: white;
+            width: 137px;
+        }
+    }
+}
+
+.service-card-seis {
+    background-color: var(--dark);
+    div {
+        a {
+            color: white;
+        }
+    }
+}
