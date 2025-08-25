@@ -253,7 +253,7 @@ main {
 .lets-make-things-happen-text-and-button {
     width: 500px;
     height: 227px;
-    taxt-align: left;
+    text-align: left;
     display: flex;
     flex-direction: column;
     gap: 26px;
