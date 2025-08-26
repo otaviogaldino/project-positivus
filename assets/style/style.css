@@ -294,7 +294,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 
 .case-study {
@@ -316,5 +315,22 @@ main {
         display: flex;
         align-items: center;
         gap: 15px;
+    }
+}
+/* end section */
+
+.our-working-process {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 140px 0px 85px 100px;
+    gap: 40px;
+    h2 {
+        background-color: var(--green);
+        width: 412px;
+        text-align: center;
+    }
+    p {
+        width: 292px;
     }
 }
