@@ -385,8 +385,13 @@ main {
     background-color: black;
 }
 
+#icon-mais {
+    cursor: pointer;
+}
+
 #icon-menos {
     display: none;
+    cursor: pointer;
 }
 
 .process-card-resposta {
