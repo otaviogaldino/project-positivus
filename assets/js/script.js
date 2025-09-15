@@ -1,6 +1,6 @@
 let processCard = document.querySelector('.process-card');
-let iconMais = document.getElementById('icon-mais');
-let iconMenos = document.getElementById('icon-menos');
+let iconMais = document.querySelector('.icon-mais');
+let iconMenos = document.querySelector('.icon-menos');
 let processCardResposta = document.querySelector('.process-card-resposta');
 
 iconMais.addEventListener('click', () => {

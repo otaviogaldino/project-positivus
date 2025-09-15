@@ -385,11 +385,11 @@ main {
     background-color: black;
 }
 
-#icon-mais {
+.icon-mais {
     cursor: pointer;
 }
 
-#icon-menos {
+.icon-menos {
     display: none;
     cursor: pointer;
 }
