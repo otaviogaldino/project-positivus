@@ -398,3 +398,45 @@ main {
     display: none;
     text-align: left;
 }
+
+/* responsividade */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .main-image {
+        max-width: 400px;
+    }
+    .logotypes {
+        max-width: 80%;
+    }
+    .logotypes > nav {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .service-card {
+        max-width: 450px;
+        padding: 25px;
+    }
+    .lets-make-things-happen-card{
+        width: 80%;
+        padding: 0 40px;
+    }
+    .case-studies-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .case-studies-content {
+        width: 80%;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    .line {
+        rotate: 0deg;
+        width: 90%;
+    }
+}
