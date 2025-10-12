@@ -475,6 +475,23 @@ main {
 }
 /* end team cards */
 
+.team-btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.team-btn > button {
+    background-color: var(--dark);
+    width: 269px;
+    height: 68px;
+    border-radius: 14px;
+    color: white;
+    font-size: 20px;
+    margin: 40px 100px 90px 0px;
+}
+
 /* responsividade */
 @media (max-width: 1024px) {
     header {
