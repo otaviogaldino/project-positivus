@@ -22,3 +22,13 @@ processCards.forEach(card => {
         card.style.transition = '0.3s';
     })
 })
+
+let menuToggle = document.getElementById('menu-toggle');
+let nav = document.querySelector('header > nav'); 
+menuToggle.addEventListener('click', () => {
+    if(nav.style.display === 'flex') {
+        nav.style.display = 'none';
+    } else {
+        nav.style.display = 'flex';
+    }
+})
