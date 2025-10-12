@@ -492,6 +492,30 @@ main {
     margin: 40px 100px 90px 0px;
 }
 
+.testimonials {
+    width: 100%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.testimonials > h2 {
+    background-color: var(--green);
+    border-radius: 7px;
+    width: 255px;
+    height: 51px;
+    text-align: center;
+    font-style: 40px;
+}
+
+.testimonials > p {
+    width: 473px;
+    text-align: left;
+    height: 46px;
+}
+
 /* responsividade */
 @media (max-width: 1024px) {
     header {
